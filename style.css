@@ -6,7 +6,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/CalculadoraJS/Img/calculos.jpg);
+  background-image: url(/Img/calculos.jpg);
   background-color: rgba(255, 255, 255, 0.100);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(15px);
@@ -28,7 +28,7 @@ input{
 }
 
 .text{
-  width: 160px;
+  width: 202px;
   height: 26px;
   border-radius: 22px;
   letter-spacing: 5px;
@@ -39,37 +39,77 @@ input{
 .text1{
   width: 24px;
   height: 26px;
-  border-radius: 50%;
+  border-radius: 22px;
   letter-spacing: 5px;
   text-align: center;
   margin-bottom: 12px;
   cursor: pointer;
+  margin-left: 0.5cm;
+
 }
 
 .main{
   display: inline-block;
+  background:rgba(53, 53, 53, 0.726);
+  border-radius: 5%;
 }
 
 .maincolor{
   background-color: rgb(53, 53, 53) ;
 }
 
-.blue{
-  background-color: #0cd0cd;
-}
-
-.pin{
-  background-color: #cf1596;
-}
-
-.gre{
-  background-color: #aad800;
-}
-
-.pur{
+.btnIgual{
   background-color: #8c52ff;
+  width: 64px;
+  height: 70px;
+  cursor: pointer;
+  margin-left: 0.5cm;
+  margin-bottom: 0.5cm;  
 }
 
-.ora{
-  background-color: #fcb707;
+.numAdicao{
+  background-color: #8c52ff;
+  margin-right: 0.5cm;
+  width: 64px;
+  height: 70px;
+  cursor: pointer;
+  margin-left: 0.5cm;
+
+}
+
+.numSubtracao{
+  background-color: #8c52ff;
+  width: 64px;
+  height: 70px;
+  cursor: pointer;
+  margin-left: 0.5cm;
+
+}
+
+.numMultiplicacao{
+  background-color: #8c52ff;
+  width: 64px;
+  height: 70px;
+  cursor: pointer;
+  margin-left: 0.5cm;
+
+}
+
+.numDivisao{
+  background-color: #8c52ff;
+  width: 64px;
+  height: 70px;
+  cursor: pointer;
+  margin-left: 0.5cm;
+
+}
+
+.text.maincolor{
+  margin-top: 0.5cm;
+  margin-left: 0.5cm;
+
+}
+
+.num.maincolor{
+  margin-left: 0.5cm;
 }
